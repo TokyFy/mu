@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-cabin subpixel-antialiased">
+      <body className="font-cabin subpixel-antialiased overflow-x-hidden">
       <NavBar/>
       {children}
       <Footer/>
