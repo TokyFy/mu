@@ -36,8 +36,8 @@ module.exports = {
                 },
             },
             animation: {
-                'slideDownAnime': "slideDown 3000ms cubic-bezier(0.87, 0, 0.13, 1)",
-                'slideUpAnime': "slideUp 3000ms cubic-bezier(0.87, 0, 0.13, 1)",
+                'slideDownAnime': "slideDown 1000ms cubic-bezier(0.87, 0, 0.13, 1)",
+                'slideUpAnime': "slideUp 1000ms cubic-bezier(0.87, 0, 0.13, 1)",
             },
         },
     },

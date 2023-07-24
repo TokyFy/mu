@@ -5,7 +5,7 @@ import * as AccordionRd from '@radix-ui/react-accordion';
 import clsx from "clsx";
 
 const Accordion = () => (
-    <AccordionRd.Root className="px-2 divide-y" type="single" defaultValue="item-1" collapsible>
+    <AccordionRd.Root className="px-2 divide-y"  type={"multiple"}>
 
         <AccordionRd.Item className="AccordionItem" value="item-1">
             <AccordionTrigger
@@ -13,26 +13,44 @@ const Accordion = () => (
                 <p>Experienced <br/> professionals</p>
             </AccordionTrigger>
             <AccordionContent
-                className="mb-[32px] overflow-hidden">Yes.
-                It adheres to the WAI-ARIA design pattern.</AccordionContent>
+                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
+                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
+            </AccordionContent>
         </AccordionRd.Item>
 
         <AccordionRd.Item className="AccordionItem" value="item-2">
             <AccordionTrigger
-                className="flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
+                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
                 <p>Experienced <br/> professionals</p>
             </AccordionTrigger>
-            <AccordionContent className="pb-[32px]">Yes. It adheres to the WAI-ARIA design pattern.</AccordionContent>
+            <AccordionContent
+                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
+                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
+            </AccordionContent>
         </AccordionRd.Item>
 
         <AccordionRd.Item className="AccordionItem" value="item-3">
             <AccordionTrigger
-                className="flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
+                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
                 <p>Experienced <br/> professionals</p>
             </AccordionTrigger>
-            <AccordionContent className="pb-[32px] transition duration-1000">Yes. It adheres to the WAI-ARIA design
-                pattern.</AccordionContent>
+            <AccordionContent
+                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
+                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
+            </AccordionContent>
         </AccordionRd.Item>
+
+        <AccordionRd.Item className="AccordionItem" value="item-4">
+            <AccordionTrigger
+                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
+                <p>Experienced <br/> professionals</p>
+            </AccordionTrigger>
+            <AccordionContent
+                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
+                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
+            </AccordionContent>
+        </AccordionRd.Item>
+
 
     </AccordionRd.Root>
 );
@@ -70,7 +88,7 @@ const AccordionContent = React.forwardRef<
         {...props}
         ref={forwardedRef}
     >
-        <div>{children}</div>
+        <div className="mb-[32px]">{children}</div>
     </AccordionRd.Content>
 ));
 

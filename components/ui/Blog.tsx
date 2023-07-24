@@ -9,7 +9,7 @@ type Props = {
 };
 export const Blog = ({cover , title , resume} : Props) => {
     return (
-        <div className="p-2">
+        <div className="p-2 cursor-pointer hover:bg-neutral-100">
             <div className="relative h-64">
                 <Image className={"object-cover"} fill src={cover} alt={"Marketing"}/>
             </div>

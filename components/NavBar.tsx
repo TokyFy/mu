@@ -4,7 +4,7 @@ import {Btn} from "@components/ui/btn";
 
 export const NavBar = () => {
     return (
-        <nav className="flex bg-primary-dark px-2 md:px-0">
+        <nav className="flex bg-primary-dark px-2 md:px-0 ">
             <div className="container mx-auto flex ">
                 <div className="text-amber-400">
                     <Image src="/image/logo.svg" alt="Multi Agency logo" width={142} height={200} />
