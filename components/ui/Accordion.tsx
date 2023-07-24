@@ -30,8 +30,8 @@ const Accordion = () => (
                 className="flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
                 <p>Experienced <br/> professionals</p>
             </AccordionTrigger>
-            <AccordionContent className="pb-[32px] transition duration-1000">Yes. It adheres to the WAI-ARIA design
-                pattern.</AccordionContent>
+            <AccordionContent className="pb-[32px] transition duration-1000">
+                Yes. It adheres to the WAI-ARIA design pattern.</AccordionContent>
         </AccordionRd.Item>
 
     </AccordionRd.Root>
