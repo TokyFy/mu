@@ -14,7 +14,7 @@ export const Footer = () => {
                     <Btn outline value="Get in touch"/>
                 </div>
             </div>
-            <div className="container mx-auto font-alata flex  flex-col gap-12 md:flex-row justify-between py-[64px] text-lg">
+            <div className="container mx-auto font-alata flex  flex-col gap-12 md:flex-row justify-between py-[64px] text-base">
                 <ul className="flex flex-col gap-2">
                     <li>Home</li>
                     <li>About us</li>

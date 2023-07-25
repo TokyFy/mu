@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+    corePlugins : {
+      container : false
+    },
     content: [
         './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -18,6 +21,22 @@ module.exports = {
                 "accent-color": "var(--accent-color)"
             },
             keyframes: {
+                menuOpen : {
+                    from: {
+                        height: "0vh",
+                    },
+                    to: {
+                        height: "100vh"
+                    }
+                },
+                menuClose : {
+                    from: {
+                        height: "100vh",
+                    },
+                    to: {
+                        height: "0vh"
+                    }
+                },
                 slideDown: {
                     from: {
                         height: "0",
@@ -36,10 +55,32 @@ module.exports = {
                 },
             },
             animation: {
+                'menuOpenAnime': "menuOpen 1000ms cubic-bezier(0.87, 0, 0.13, 1) both",
+                'menuCloseAnime': "menuClose 1000ms cubic-bezier(0.87, 0, 0.13, 1) both",
                 'slideDownAnime': "slideDown 1000ms cubic-bezier(0.87, 0, 0.13, 1)",
                 'slideUpAnime': "slideUp 1000ms cubic-bezier(0.87, 0, 0.13, 1)",
             },
         },
     },
-    plugins: [],
+    plugins: [
+        function ({ addComponents }) {
+            addComponents({
+                '.container': {
+                    width: '100%',
+                    '@screen sm': {
+                        maxWidth: '640px',
+                    },
+                    '@screen md': {
+                        maxWidth: '768px',
+                    },
+                    '@screen lg': {
+                        maxWidth: '1024px',
+                    },
+                    '@screen xl': {
+                        maxWidth: '1180px',
+                    }
+                }
+            })
+        }
+    ],
 }

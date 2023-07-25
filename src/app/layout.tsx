@@ -1,25 +1,17 @@
 import './globals.css'
-import type { Metadata } from 'next'
-import {NavBar} from "@components/NavBar";
-import {Footer} from "@components/Footer";
+import type {Metadata} from 'next'
 
 export const metadata: Metadata = {
-  title: 'Multi united',
-  description: '--',
+    title: 'Multi united',
+    description: '--',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body className="font-cabin subpixel-antialiased overflow-x-hidden">
-      <NavBar/>
-      {children}
-      <Footer/>
-      </body>
-    </html>
-  )
+export default function RootLayout({children,}: { children: React.ReactNode }) {
+    return (
+        <html lang="en">
+        <body className="no-transition font-cabin subpixel-antialiased overflow-x-hidden">
+        {children}
+        </body>
+        </html>
+    )
 }

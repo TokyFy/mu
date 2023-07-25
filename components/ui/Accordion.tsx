@@ -4,56 +4,34 @@ import React from 'react';
 import * as AccordionRd from '@radix-ui/react-accordion';
 import clsx from "clsx";
 
-const Accordion = () => (
-    <AccordionRd.Root className="px-2 divide-y"  type={"multiple"}>
+type RootProps = {
+    children : React.ReactElement[] | React.ReactElement;
+}
 
-        <AccordionRd.Item className="AccordionItem" value="item-1">
-            <AccordionTrigger
-                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
-                <p>Experienced <br/> professionals</p>
-            </AccordionTrigger>
-            <AccordionContent
-                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
-                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
-            </AccordionContent>
-        </AccordionRd.Item>
+type ItemsProps = {
+    value : string,
+    header : React.ReactElement,
+    content : string
+}
 
-        <AccordionRd.Item className="AccordionItem" value="item-2">
-            <AccordionTrigger
-                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
-                <p>Experienced <br/> professionals</p>
-            </AccordionTrigger>
-            <AccordionContent
-                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
-                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
-            </AccordionContent>
-        </AccordionRd.Item>
-
-        <AccordionRd.Item className="AccordionItem" value="item-3">
-            <AccordionTrigger
-                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
-                <p>Experienced <br/> professionals</p>
-            </AccordionTrigger>
-            <AccordionContent
-                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
-                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
-            </AccordionContent>
-        </AccordionRd.Item>
-
-        <AccordionRd.Item className="AccordionItem" value="item-4">
-            <AccordionTrigger
-                className="group flex justify-between items-center grow font-alata text-2xl text-left py-[32px]">
-                <p>Experienced <br/> professionals</p>
-            </AccordionTrigger>
-            <AccordionContent
-                className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
-                We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs.
-            </AccordionContent>
-        </AccordionRd.Item>
-
-
+const Root = ({children} : RootProps) => (
+    <AccordionRd.Root className="px-2 divide-y" type={"multiple"}>
+        {children}
     </AccordionRd.Root>
 );
+
+const Item = ({value , header , content} : ItemsProps) => (
+    <AccordionRd.Item value={value}>
+        <AccordionTrigger
+            className="group flex justify-between items-center grow  text-2xl text-left py-[32px] font-bold">
+            {header}
+        </AccordionTrigger>
+        <AccordionContent
+            className="overflow-hidden data-[state=open]:animate-slideDownAnime data-[state=closed]:animate-slideUpAnime">
+            {content}
+        </AccordionContent>
+    </AccordionRd.Item>
+)
 
 const AccordionTrigger = React.forwardRef<
     HTMLButtonElement,
@@ -94,4 +72,4 @@ const AccordionContent = React.forwardRef<
 
 AccordionContent.displayName = 'AccordionTrigger';
 
-export default Accordion;
+export {Root , Item};

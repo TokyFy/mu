@@ -1,15 +1,21 @@
 import Presentation from "@components/about/Presentation";
 import Teams from "@components/about/Teams";
-import Accordion from "@components/ui/Accordion";
+import React from "react";
+import {Advantages} from "@components/about/Advantages";
+import LenisWrapper from "@components/ui/LenisWrapper";
+import {NavBar} from "@components/NavBar";
+import {Footer} from "@components/Footer";
 
 
 const Page = () => {
     return (
-        <main>
+        <LenisWrapper>
+            <NavBar/>
             <Presentation/>
             <Teams/>
-            <Accordion/>
-        </main>
+            <Advantages/>
+            <Footer/>
+        </LenisWrapper>
     );
 };
 
