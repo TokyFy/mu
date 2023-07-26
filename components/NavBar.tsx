@@ -52,14 +52,14 @@ export const NavBar = ({background} : props) => {
                     <div className="text-amber-400">
                         <Image src="/image/logo.svg" alt="Multi Agency logo" width={142} height={200}/>
                     </div>
-                    <div className="flex items-center ms-auto">
-                        <div className="w-[32px] mr-4 cursor-pointer" onClick={() => setOpen(!open)}>
+                    <div className="flex items-center ms-auto" onClick={() => setOpen(!open)}>
+                        <div className="w-[32px] mr-4 cursor-pointer" >
                             <div className="bg-primary-light h-[2px] w-full my-2 -translate-x-1"></div>
                             <div className="bg-primary-light h-[2px] w-full my-2 translate-x-1"></div>
                         </div>
                     </div>
                 </div>
-                <ul className="bg-primary-dark text-primary-light font-alata gap-12 grow flex flex-col justify-center px-2 py-12 text-6xl">
+                <ul className="bg-primary-dark text-primary-light font-alata gap-12 grow flex flex-col justify-center px-2 py-12 text-4xl">
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
                         href={"/"}>Home</Link></li>
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
@@ -67,7 +67,7 @@ export const NavBar = ({background} : props) => {
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Service</li>
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Blog</li>
                 </ul>
-                <div className="bg-primary-dark flex justify-between px-2 pb-6">
+                <div className="bg-primary-dark flex justify-between px-2 pb-16">
                     <Btn outline value={"Contact us"}/>
                     <div className="flex gap-6">
                         <Btn outline value={"Ln"}/>
