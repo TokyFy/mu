@@ -28,7 +28,7 @@ export const Heading = (props: Props) => {
                     <Image className="invert" width={250} height={200} src={"/image/spinner.svg"} alt={"spinner image"}/>
                 </div>
             </section>
-            <video autoPlay loop muted className="absolute  w-auto min-w-full max-h-full max-w-none brightness-[.25]">
+            <video poster={"/image/poster.webp"} autoPlay loop muted className="absolute  w-auto min-w-full max-h-full max-w-none brightness-[.25]">
                 <source src="image/homevideo.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
