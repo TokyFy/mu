@@ -6,11 +6,11 @@ import Image from "next/image";
 type Props = {};
 export const Heading = (props: Props) => {
     return (
-        <header className="bg-primary-dark flex flex-col items-center h-screen mb-12 overflow-hidden">
+        <header className="bg-primary-dark flex flex-col items-center h-screen mb-12">
             <NavBar/>
-            <section className="text-primary-light container mx-auto flex px-2 mt-[80px] py-[64px] md:py-[96px] z-[1]">
+            <section className="text-primary-light container grow items-center mx-auto flex px-2 md:py-[64px] lg:py-[96px] z-[1]">
                 <div className="w-full lg:w-2/3">
-                    <h1 className="text-6xl mb-6 font-cabin font-bold">Creative marketing solutions, crafted for
+                    <h1 className="text-4xl md:text-6xl mb-6 font-cabin font-bold">Creative marketing solutions, crafted for
                         <span className="">success</span>.</h1>
                     <h2 className="font-alata text-2xl mb-4 w-4/5 md:py-8">We create winning ideas to ignite the most
                         distinctive
@@ -28,10 +28,12 @@ export const Heading = (props: Props) => {
                     <Image className="invert" width={250} height={200} src={"/image/spinner.svg"} alt={"spinner image"}/>
                 </div>
             </section>
-            <video poster={"/image/poster.webp"} autoPlay loop muted className="absolute  w-auto min-w-full max-h-full max-w-none brightness-[.25]">
-                <source src="image/homevideo.mp4" type="video/mp4"/>
-                Your browser does not support the video tag.
-            </video>
+            <div className="overflow-hidden absolute w-screen h-screen top-0 left-0">
+                <video poster={"/image/poster.webp"} autoPlay loop muted className="h-screen w-full object-cover">
+                    <source src="image/homevideo.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </header>
     );
 };
