@@ -6,11 +6,14 @@ import {Projects} from "@components/home/Projects";
 import {Footer} from "@components/Footer";
 import LenisWrapper from "@components/ui/LenisWrapper";
 import {Heading} from "@components/home/Heading";
+import {NavBar} from "@components/NavBar";
+import * as React from "react";
 
 export default function Home() {
 
     return (
        <LenisWrapper>
+           <NavBar/>
            <Heading/>
            {/*<Hero/>*/}
            <WhoWeAre/>

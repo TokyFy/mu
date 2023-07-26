@@ -7,7 +7,6 @@ type Props = {};
 export const Heading = (props: Props) => {
     return (
         <header className="bg-primary-dark flex flex-col items-center h-screen mb-12">
-            <NavBar/>
             <section
                 className="text-primary-light container grow items-center mx-auto flex px-2 md:py-[64px] lg:py-[96px] z-[1]">
                 <div className="w-full lg:w-2/3">
