@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export const Presentation = () => {
     return (
-        <section className="container mx-auto px-2 pt-[96px] font-alata mt-[80px]">
+        <section className="container mx-auto px-2 pt-[96px] font-alata">
             <div className="xl:w-2/3">
                 <h1 className="text-5xl">WE ARE MU AGENCY</h1>
 

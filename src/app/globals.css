@@ -9,6 +9,8 @@
   --primary-dark:  #050505;
   --primary-light: #ffffff;
   --accent-color:  #0000FF;
+
+  --swiper-fix : 0;
 }
 
 * {
