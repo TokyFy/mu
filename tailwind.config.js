@@ -53,12 +53,21 @@ module.exports = {
                         height: "0"
                     }
                 },
+                spin: {
+                    from: {
+                        transform: "rotate(0)",
+                    },
+                    to: {
+                        transform: "rotate(360deg)",
+                    }
+                },
             },
             animation: {
                 'menuOpenAnime': "menuOpen 1000ms cubic-bezier(0.87, 0, 0.13, 1) both",
-                'menuCloseAnime': "menuClose 1000ms cubic-bezier(0.87, 0, 0.13, 1) both",
+                'menuCloseAnime': "menuClose 300ms cubic-bezier(0.87, 0, 0.13, 1) both",
                 'slideDownAnime': "slideDown 1000ms cubic-bezier(0.87, 0, 0.13, 1)",
                 'slideUpAnime': "slideUp 1000ms cubic-bezier(0.87, 0, 0.13, 1)",
+                'spinAnime': "spin 50000ms linear infinite",
             },
         },
     },

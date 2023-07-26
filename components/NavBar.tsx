@@ -4,17 +4,27 @@ import * as React from 'react';
 import Image from "next/image";
 import {Btn} from "@components/ui/btn";
 import Link from "next/link";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
-export const NavBar = () => {
+type props = {
+    background ?: boolean
+}
+
+export const NavBar = ({background} : props) => {
 
     const [open, setOpen] = useState<boolean | null>(null);
 
+    useEffect(()=> {
+        document.body.addEventListener("wheel" , (ev)=>{
+            if(open) setOpen(false);
+        })
+    } , [open])
+
     return (
-        <nav className={`w-full bg-primary-dark flex items-center md:px-0 h-20 z-50 ${open ? "sticky top-0" : null}`}>
+        <nav className={`w-full flex items-center md:px-0 h-20 z-50 transition duration-500 delay-500 ${background || open ? "bg-primary-dark" : null} ${open ? "sticky top-0" : null}`}>
             <div className="container mx-auto flex grow">
                 <div className="text-amber-400">
-                    <Image src="/image/logo.svg" alt="Multi Agency logo" width={142} height={200}/>
+                    <Image src="/image/logo.svg" alt="Multi Agency logo" width={122} height={200}/>
                 </div>
                 <div className="flex items-center ms-auto">
                     <div className={`md:hidden w-[32px] mr-4 cursor-pointer`} onClick={() => setOpen(!open)}>
@@ -37,7 +47,7 @@ export const NavBar = () => {
                 </div>
             </div>
             <div
-                className={`absolute flex flex-col  text-primary-light w-full top-0 left-0 md:hidden z-50 overflow-hidden overscroll-contain h-0 ${open !== null ? (open ? "animate-menuOpenAnime" : "animate-menuCloseAnime") : null}`}>
+                className={`absolute flex flex-col bg text-primary-light w-full top-0 left-0 md:hidden z-[9999] overflow-hidden overscroll-contain h-0 ${open !== null ? (open ? "animate-menuOpenAnime" : "animate-menuCloseAnime") : null}`}>
                 <div className="container mx-auto flex opacity-0 ">
                     <div className="text-amber-400">
                         <Image src="/image/logo.svg" alt="Multi Agency logo" width={142} height={200}/>

@@ -10,7 +10,7 @@ import {Footer} from "@components/Footer";
 const Page = () => {
     return (
         <LenisWrapper>
-            <NavBar/>
+            <NavBar background/>
             <Presentation/>
             <Teams/>
             <Advantages/>
