@@ -2,7 +2,7 @@
 
 import {Team} from "@components/ui/Team";
 import {useWindowSize} from "@studio-freight/hamo";
-import {useEffect, useRef, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
@@ -42,6 +42,13 @@ const Teams = () => {
         <section className="px-2 my-16">
             <div className="container mx-auto">
                 <h2 className="font-alata text-3xl font-bold mb-[32px]" ref={origin}>A Team Of 4 Professionals Based In Madagascar</h2>
+            </div>
+            <div className="container mx-auto">
+                <p className="font-cabin text-4xl md:text-5xl font-bold">
+                    We’re a highly collaborative team that enjoys working together and getting engaged in sharing our
+                    knowledge and experience. When our team starts the next project, we know that we can handle
+                    it with a wide range of skills and can count on each other.
+                </p>
             </div>
             <div className="justify-around gap-12 mt-12 cursor-all-scroll">
                 <Swiper

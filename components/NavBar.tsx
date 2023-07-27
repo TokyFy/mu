@@ -38,10 +38,11 @@ export const NavBar = ({background} : props) => {
                             href={"/"}>Home</Link></li>
                         <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
                             href={"/about"}>About us</Link></li>
-                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Service</li>
                         <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Blog</li>
                         <li>
-                            <Btn outline value={"Contact us"}/>
+                            <Link href={"/contact"}>
+                                <Btn outline value={"Contact us"}/>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +65,6 @@ export const NavBar = ({background} : props) => {
                         href={"/"}>Home</Link></li>
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
                         href={"/about"}>About us</Link></li>
-                    <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Service</li>
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Blog</li>
                 </ul>
                 <div className="bg-primary-dark flex justify-between px-2 pb-16">

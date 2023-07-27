@@ -1,5 +1,5 @@
 "use client"
-import {Hero} from "@components/home/Hero";
+
 import {WhoWeAre} from "@components/home/WhoWeAre";
 import {Blogs} from "@components/home/Blogs";
 import {Projects} from "@components/home/Projects";
@@ -8,6 +8,7 @@ import LenisWrapper from "@components/ui/LenisWrapper";
 import {Heading} from "@components/home/Heading";
 import {NavBar} from "@components/NavBar";
 import * as React from "react";
+import {Service} from "@components/home/Service";
 
 export default function Home() {
 
@@ -15,8 +16,8 @@ export default function Home() {
        <LenisWrapper>
            <NavBar/>
            <Heading/>
-           {/*<Hero/>*/}
            <WhoWeAre/>
+           <Service/>
            <Projects/>
            <Blogs/>
            <Footer/>

@@ -5,7 +5,7 @@ import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import React from "react";
 
 type props = {
-    children : React.ReactElement[]
+    children : React.ReactElement[] | React.ReactElement
 }
 
 export default function LenisWrapper({children} : props) {
