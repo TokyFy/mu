@@ -1,0 +1,58 @@
+{
+  "NavBar": {
+    "menu1": "Home",
+    "menu2": "About us",
+    "menu3": "Blog",
+    "menu4": "Contact us"
+  },
+  "Heading": {
+    "slogan": "A multitude of skills in a single agency, crafted for success.",
+    "engagement": "We create winning ideas to ignite the most distinctive campaigns in world.",
+    "value": "From captivating designs to compelling campaigns, we'll bring your vision to life in ways that captivate audiences and drive results. Experience the transformative power of our creativity and unlock new possibilities for your brand's success."
+  },
+  "whoWeAre" : {
+    "title" : "WHO WE ARE ?",
+    "slogan1" : "MU is the marketing agency that cares about every aspect of you brand.",
+    "slogan2" : "Everything matters, the big and the small stuff."
+  },
+  "service" : {
+    "title" : "What we do",
+    "service1" : {
+      "name" : "Digital strategy",
+      "detail" : "We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs."
+    },
+    "service2" : {
+      "name" : "Social Media Management",
+      "detail" : "We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs."
+    },
+    "service3" : {
+      "name" : "Web development",
+      "detail" : "We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs."
+    },
+    "service4" : {
+      "name" : "Digital strategy",
+      "detail" : "We specialize in helping businesses reach their highest potential by developing creative and effective marketing strategies tailored to their individual needs."
+    }
+  },
+  "projects" : {
+    "title" : "Nos <br></br> Projects",
+    "btn" : "All project"
+  },
+
+  "blogs" : {
+    "title" : "Latest <br></br> Blogs",
+    "btn" : "Read more",
+    "blog1" : {
+      "title" : "Marketing is one of the most important aspects",
+      "preview" : "Creating a positive image for your brand and building relationships with customers"
+    },
+    "blog2" : {
+      "title" : "Search Engine Optimization",
+      "preview" : "Process of increasing the visibility of a website"
+    },
+    "blog3" : {
+      "title" : "Marketing is the process of promoting and selling products",
+      "preview" : "It's an essential part of any successful business, helping to create brand awareness..."
+    }
+  }
+}

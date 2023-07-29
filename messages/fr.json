@@ -1,0 +1,60 @@
+{
+  "NavBar": {
+    "menu1": "Accueil",
+    "menu2": "À propos",
+    "menu3": "Blog",
+    "menu4" : "Contact"
+  },
+  "Heading": {
+    "slogan": "Une multitude de compétences au sein d'une seule agence, conçue pour le succès.",
+    "engagement": "Nous créons des idées gagnantes pour initier les campagnes les plus distinctives au monde.",
+    "value": "Des designs captivants aux campagnes convaincantes, nous donnerons vie à votre vision d'une manière qui captive les publics et génère des résultats. Découvrez le pouvoir transformateur de notre créativité et débloquez de nouvelles possibilités pour le succès de votre marque."
+  },
+  "whoWeAre": {
+    "title" : "QUI SOMMES-NOUS ? ",
+    "slogan1": "MU est l'agence de marketing qui se soucie de chaque aspect de votre marque.",
+    "slogan2": "Tout compte, les grandes choses comme les petites."
+  },
+  "service": {
+    "title": "Nous faisons",
+    "service1": {
+      "name": "Stratégie numérique",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    },
+    "service2": {
+      "name": "Gestion des médias sociaux",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    },
+    "service3": {
+      "name": "Développement Web",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    },
+    "service4": {
+      "name": "Stratégie numérique",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    }
+  },
+
+  "projects" : {
+    "title" : "Nos<br></br>Projects",
+    "btn" : "Voir tous nos Projets"
+  },
+
+  "blogs" : {
+    "title" : "Dernier <br></br> News",
+    "btn" : "Voir plus",
+    "blog1": {
+      "title": "Le marketing est l'un des aspects les plus importants",
+      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+    },
+    "blog2": {
+      "title": "Le marketing est l'un des aspects les plus importants",
+      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+    },
+    "blog3": {
+      "title": "Le marketing est l'un des aspects les plus importants",
+      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+    }
+  }
+
+}
