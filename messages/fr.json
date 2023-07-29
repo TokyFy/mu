@@ -1,0 +1,124 @@
+{
+  "NavBar": {
+    "menu1": "Accueil",
+    "menu2": "À propos",
+    "menu3": "Blog",
+    "menu4" : "Contact"
+  },
+  "Heading": {
+    "slogan": "Une multitude de compétences au sein d'une seule agence, conçue pour le succès.",
+    "engagement": "Nous créons des idées gagnantes pour initier les campagnes les plus distinctives au monde.",
+    "value": "Des designs captivants aux campagnes convaincantes, nous donnerons vie à votre vision d'une manière qui captive les publics et génère des résultats. Découvrez le pouvoir transformateur de notre créativité et débloquez de nouvelles possibilités pour le succès de votre marque."
+  },
+  "whoWeAre": {
+    "title" : "QUI SOMMES-NOUS ? ",
+    "slogan1": "MU est l'agence de marketing qui se soucie de chaque aspect de votre marque.",
+    "slogan2": "Tout compte, les grandes choses comme les petites."
+  },
+  "service": {
+    "title": "Nous faisons",
+    "service1": {
+      "name": "Stratégie numérique",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    },
+    "service2": {
+      "name": "Gestion des médias sociaux",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    },
+    "service3": {
+      "name": "Développement Web",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    },
+    "service4": {
+      "name": "Photo and Video",
+      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+    }
+  },
+
+  "projects" : {
+    "title" : "Nos<br></br>Projects",
+    "btn" : "Voir tous nos Projets"
+  },
+
+  "blogs" : {
+    "title" : "Dernier <br></br> News",
+    "btn" : "Voir plus",
+    "blog1": {
+      "title": "Le marketing est l'un des aspects les plus importants",
+      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+    },
+    "blog2": {
+      "title": "Le marketing est l'un des aspects les plus importants",
+      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+    },
+    "blog3": {
+      "title": "Le marketing est l'un des aspects les plus importants",
+      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+    }
+  } ,
+
+  "footer" : {
+    "cta" : "Vous avez une idée ? <br></br> Développons-le !",
+    "btn" : "Contacter nous",
+    "mail_cta" : "Construisons ensemble",
+    "phone-cta" : "Discutons",
+    "policy" : "politique de confidentialité",
+    "legal" : "Information Legale"
+  },
+
+  "servicePage" : {
+    "intro" : "NOUS SOMMES L'AGENCE MU",
+    "presentation_one" : "Chez MU Agency, notre ambiance exceptionnelle garantit que la croissance est toujours réalisable. Notre équipe ne cesse de croître, non seulement en termes d'effectifs et de talent créatif, mais aussi à travers le monde entier. Nous sommes bien équipés avec une connaissance approfondie du secteur du marketing. Nous proposons des stratégies de marketing multi-canal, primées à l'échelle mondiale, couvrant les médias numériques et traditionnels, ce qui entraîne des succès exceptionnels reconnus par des prix. Nos services dépassent l'offre typique ; nous enquêtons, planifions, élaborons des stratégies et garantissons le succès.",
+    "presentation_two" : "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en élaborant des stratégies marketing créatives et efficaces adaptées à leurs besoins spécifiques. Notre expertise va au-delà de l'offre habituelle, car nous enquêtons, concevons, élaborons des stratégies et aboutissons au succès.",
+    "teams_into" : "Une équipe de 4 professionnels basée à Madagascar",
+    "team_presentation" : "Nous sommes une équipe hautement collaborative qui apprécie de travailler ensemble et de partager nos connaissances et notre expérience. Lorsque notre équipe entame le prochain projet, nous savons que nous pouvons le gérer avec une grande variété de compétences et compter les uns sur les autres.",
+    "teams" : {
+      "member_1" : {
+        "name" : "Antsa",
+        "fonction" : "Lead Designer"
+      },
+      "member_2" : {
+        "name" : "Toky",
+        "fonction" : "Lead Développeur"
+      },
+      "member_3" : {
+        "name" : "Safidy",
+        "fonction" : "Responsable Communication"
+      },
+      "member_4" : {
+        "name" : "Tsilefy",
+        "fonction" : "Responsable Marketing"
+      }
+    },
+
+    "advantage" : {
+      "advantage1" : {
+        "areas" : "Professionnels<br></br>expérimentés",
+        "explanation" : "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en élaborant des stratégies marketing créatives et efficaces adaptées à leurs besoins spécifiques."
+      },
+      "advantage2" : {
+        "areas" : "Service<br></br>complet",
+        "explanation" : "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en élaborant des stratégies marketing créatives et efficaces adaptées à leurs besoins spécifiques."
+      },
+      "advantage3" : {
+        "areas" : "Stratégies<br></br>personnalisées",
+        "explanation" : "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en élaborant des stratégies marketing créatives et efficaces adaptées à leurs besoins spécifiques."
+      },
+      "advantage4" : {
+        "areas" : "Approche<br></br>axée sur les données",
+        "explanation" : "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en élaborant des stratégies marketing créatives et efficaces adaptées à leurs besoins spécifiques."
+      },
+      "advantage5" : {
+        "areas" : "Résultats<br></br>prouvés",
+        "explanation" : "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en élaborant des stratégies marketing créatives et efficaces adaptées à leurs besoins spécifiques."
+      }
+    }
+  },
+
+  "contactPage" : {
+    "back_home" : "Accueil",
+    "location" : "Emplacement",
+    "support" : "Service d'assistance clientèle",
+    "social" : "Réseaux sociaux"
+  }
+}

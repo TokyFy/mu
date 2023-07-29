@@ -5,19 +5,19 @@ import 'swiper/css';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {useWindowSize} from "@studio-freight/hamo";
 import {useEffect, useRef, useState} from "react";
+import {useTranslations} from "use-intl";
 
 
 export const Projects = () => {
 
     const {width} = useWindowSize() as { width: number };
-
     const origin = useRef<HTMLDivElement>(null);
-
-
     const [slidePerSwipe, setSlidePerSwipe] = useState(3);
 
+    const text = useTranslations('projects');
+
     useEffect(() => {
-        if (origin.current !== null)  document.documentElement.style.setProperty('--swiper-fix', origin.current.offsetLeft + "px");
+        if (origin.current !== null) document.documentElement.style.setProperty('--swiper-fix', origin.current.offsetLeft + "px");
     }, [width]);
 
     useEffect(() => {
@@ -42,8 +42,13 @@ export const Projects = () => {
     return (
         <section className="flex flex-col px-2 lg:mb-[96px]">
             <div className="container mx-auto flex justify-between grow items-center mb-[64px]">
-                <h1 className="font-cabin text-5xl font-bold justify-between" ref={origin}>Our <br/> Project</h1>
-                <Btn dark outline value={"View all project"}/>
+                <h1 className="font-cabin text-5xl font-bold justify-between"
+                    ref={origin}>
+                    {text.rich("title",  {
+                        br: (_chunks) => <br></br>,
+                    })}
+                </h1>
+                <Btn dark outline value={text("btn")}/>
             </div>
             <div className="justify-around gap-12 lg:container lg:mx-auto cursor-all-scroll">
                 <Swiper

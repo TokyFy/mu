@@ -1,3 +1,5 @@
+'use client'
+
 import Presentation from "@components/about/Presentation";
 import Teams from "@components/about/Teams";
 import React from "react";

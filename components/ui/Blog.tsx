@@ -14,7 +14,7 @@ export const Blog = ({cover , title , resume} : Props) => {
                 <Image className={"object-cover"} fill src={cover} alt={"Marketing"}/>
             </div>
             <div className="my-4">
-                <h2 className="font-alata text-lg">{title}</h2>
+                <h2 className="text-lg font-bold">{title}</h2>
                 <p className="my-2">{resume}</p>
             </div>
         </div>

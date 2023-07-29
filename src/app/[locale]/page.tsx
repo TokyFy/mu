@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import {WhoWeAre} from "@components/home/WhoWeAre";
 import {Blogs} from "@components/home/Blogs";

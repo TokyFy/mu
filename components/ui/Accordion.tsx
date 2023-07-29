@@ -10,7 +10,7 @@ type RootProps = {
 
 type ItemsProps = {
     value : string,
-    header : React.ReactElement,
+    header : any,
     content : string
 }
 

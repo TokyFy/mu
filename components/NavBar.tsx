@@ -5,26 +5,42 @@ import Image from "next/image";
 import {Btn} from "@components/ui/btn";
 import Link from "next/link";
 import {useEffect, useState} from "react";
+import {useTranslations} from "use-intl";
+import DropDown from "@components/ui/DropDown";
 
 type props = {
-    background ?: boolean
+    background?: boolean
 }
 
-export const NavBar = ({background} : props) => {
+export const NavBar = ({background}: props) => {
+
+    const text = useTranslations('NavBar');
+
 
     const [open, setOpen] = useState<boolean | null>(null);
 
-    useEffect(()=> {
-        document.body.addEventListener("wheel" , (ev)=>{
-            if(open) setOpen(false);
+    const [lang, setLang] = useState("En");
+
+    useEffect(() => {
+        document.body.addEventListener("wheel", (ev) => {
+            if (open) setOpen(false);
         })
-    } , [open])
+    }, [open])
+
+    useEffect(() => {
+        setLang(document.documentElement.lang)
+        console.log(lang)
+    }, [lang]);
+
 
     return (
-        <nav className={`w-full flex items-center md:px-0 h-20 z-50 transition duration-500 delay-500 ${background || open ? "bg-primary-dark" : null} ${open ? "sticky top-0" : null}`}>
+        <nav
+            className={`w-full flex items-center md:px-0 h-20 z-50 transition duration-500 delay-500 ${background || open ? "bg-primary-dark" : null} ${open ? "sticky top-0" : null}`}>
             <div className="container mx-auto flex grow">
                 <div className="text-amber-400">
-                    <Image src="/image/logo.svg" alt="Multi Agency logo" width={122} height={200}/>
+                   <Link href={"/"}>
+                       <Image src="/image/logo.svg" alt="Multi Agency logo" width={122} height={200}/>
+                   </Link>
                 </div>
                 <div className="flex items-center ms-auto">
                     <div className={`md:hidden w-[32px] mr-4 cursor-pointer`} onClick={() => setOpen(!open)}>
@@ -35,14 +51,17 @@ export const NavBar = ({background} : props) => {
                     </div>
                     <ul className="hidden text-primary-light text-sm gap-12 pe-12 items-center md:flex">
                         <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
-                            href={"/"}>Home</Link></li>
+                            href={"/"}>{text("menu1")}</Link></li>
                         <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
-                            href={"/about"}>About us</Link></li>
-                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Blog</li>
+                            href={"/about"}>{text("menu2")}</Link></li>
+                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">{text("menu3")}</li>
                         <li>
                             <Link href={"/contact"}>
-                                <Btn outline value={"Contact us"}/>
+                                <Btn outline value={text("menu4")}/>
                             </Link>
+                        </li>
+                        <li>
+                            <DropDown trigger={lang}/>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +73,7 @@ export const NavBar = ({background} : props) => {
                         <Image src="/image/logo.svg" alt="Multi Agency logo" width={142} height={200}/>
                     </div>
                     <div className="flex items-center ms-auto" onClick={() => setOpen(!open)}>
-                        <div className="w-[32px] mr-4 cursor-pointer" >
+                        <div className="w-[32px] mr-4 cursor-pointer">
                             <div className="bg-primary-light h-[2px] w-full my-2 -translate-x-1"></div>
                             <div className="bg-primary-light h-[2px] w-full my-2 translate-x-1"></div>
                         </div>
@@ -66,6 +85,9 @@ export const NavBar = ({background} : props) => {
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
                         href={"/about"}>About us</Link></li>
                     <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">Blog</li>
+                    <li>
+                        <DropDown trigger={lang}/>
+                    </li>
                 </ul>
                 <div className="bg-primary-dark flex justify-between px-2 pb-16">
                     <Btn outline value={"Contact us"}/>

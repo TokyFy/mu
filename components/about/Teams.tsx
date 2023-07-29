@@ -6,8 +6,11 @@ import React, {useEffect, useRef, useState} from "react";
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
+import {useTranslations} from "use-intl";
 
 const Teams = () => {
+
+    const text = useTranslations('servicePage');
 
     const {width} = useWindowSize() as { width: number };
 
@@ -41,13 +44,13 @@ const Teams = () => {
     return (
         <section className="px-2 my-16">
             <div className="container mx-auto">
-                <h2 className="font-alata text-3xl font-bold mb-[32px]" ref={origin}>A Team Of 4 Professionals Based In Madagascar</h2>
+                <h2 className="font-alata text-3xl font-bold mb-[32px]" ref={origin}>
+                    {text("teams_into")}
+                </h2>
             </div>
             <div className="container mx-auto">
                 <p className="font-cabin text-4xl md:text-5xl font-bold">
-                    We’re a highly collaborative team that enjoys working together and getting engaged in sharing our
-                    knowledge and experience. When our team starts the next project, we know that we can handle
-                    it with a wide range of skills and can count on each other.
+                    {text("team_presentation")}
                 </p>
             </div>
             <div className="justify-around gap-12 mt-12 cursor-all-scroll">
@@ -58,16 +61,16 @@ const Teams = () => {
                     spaceBetween={24}
                 >
                     <SwiperSlide>
-                        <Team image={"/image/antsa.png"} name={"Antsa"} role={"Lead Designer"}/>
+                        <Team image={"/image/antsa.png"} name={"Antsa"} role={text("teams.member_1.fonction")}/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Team image={"/image/toky2.png"} name={"Toky"} role={"Lead Developer"}/>
+                        <Team image={"/image/toky2.png"} name={"Toky"} role={text("teams.member_2.fonction")}/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Team image={"/image/safidy.png"} name={"Safidy"} role={"Communication Manager"}/>
+                        <Team image={"/image/safidy.png"} name={"Safidy"} role={text("teams.member_3.fonction")}/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Team image={"/image/tsilefy.png"} name={"Tsilefy"} role={"Marketing Manager"}/>
+                        <Team image={"/image/tsilefy.png"} name={"Tsilefy"} role={text("teams.member_4.fonction")}/>
                     </SwiperSlide>
                 </Swiper>
             </div>

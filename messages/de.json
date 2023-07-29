@@ -1,0 +1,65 @@
+{
+  "NavBar": {
+    "menu1": "Startseite",
+    "menu2": "Über uns",
+    "menu3": "Blog",
+    "menu4": "Kontakt"
+  },
+  "Heading": {
+    "slogan": "Eine Vielzahl von Fähigkeiten in einer einzigen Agentur, geschaffen für Erfolg.",
+    "engagement": "Wir entwickeln gewinnbringende Ideen, um die markantesten Kampagnen der Welt zu entfachen.",
+    "value": "Von fesselnden Designs bis zu überzeugenden Kampagnen werden wir Ihre Vision auf fesselnde Weise zum Leben erwecken und Ihr Publikum begeistern und Ergebnisse erzielen. Erleben Sie die transformative Kraft unserer Kreativität und entdecken Sie neue Möglichkeiten für den Erfolg Ihrer Marke."
+  },
+  "whoWeAre": {
+    "title": "WER WIR SIND?",
+    "slogan1": "MU ist die Marketing-Agentur, die sich um jeden Aspekt Ihrer Marke kümmert.",
+    "slogan2": "Alles ist wichtig, die großen und die kleinen Dinge."
+  },
+  "service": {
+    "title": "Was wir tun",
+    "service1": {
+      "name": "Digitale Strategie",
+      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+    },
+    "service2": {
+      "name": "Social Media Management",
+      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+    },
+    "service3": {
+      "name": "Webentwicklung",
+      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+    },
+    "service4": {
+      "name": "Digitale Strategie",
+      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+    }
+  },
+  "projects": {
+    "title": "Unsere <br></br> Projekte",
+    "btn": "Alle Projekte"
+  },
+  "blogs": {
+    "title": "Neueste <br></br> Blogs",
+    "btn": "Weiterlesen",
+    "blog1": {
+      "title": "Marketing ist einer der wichtigsten Aspekte",
+      "preview": "Eine positive Imagebildung für Ihre Marke und der Aufbau von Kundenbeziehungen"
+    },
+    "blog2": {
+      "title": "Suchmaschinenoptimierung",
+      "preview": "Prozess zur Erhöhung der Sichtbarkeit einer Website"
+    },
+    "blog3": {
+      "title": "Marketing ist der Prozess der Förderung und des Verkaufs von Produkten",
+      "preview": "Es ist ein wesentlicher Bestandteil jedes erfolgreichen Unternehmens und trägt zur Schaffung von Markenbewusstsein bei..."
+    }
+  },
+  "footer": {
+    "cta": "Haben Sie eine Idee? <br></br> Lassen Sie uns diese umsetzen und ausweiten!",
+    "btn": "Kontakt aufnehmen",
+    "mail_cta": "Kontaktieren Sie uns",
+    "phone-cta": "Diskutieren",
+    "policy": "Datenschutzbestimmungen",
+    "legal": "Impressum"
+  }
+}
