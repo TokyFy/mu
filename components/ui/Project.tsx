@@ -11,7 +11,7 @@ type Props = {
 export const Project = ({image , paragraph , title , elevated} : Props) => {
     return (
         <div className={clsx("group relative max-w-max text-primary-light hover:scale-[1.025] transition ease-in duration-300 min-w-[200px] z-50" , elevated && "lg:translate-y-24")}>
-            <Image className="brightness-10 group-hover:brightness-50 transition ease-in duration-300" width={500}  height={300} src={image} alt={"old machintosh"}/>
+            <Image className="brightness-10 group-hover:brightness-50 transition ease-in duration-300 grayscale group-hover:grayscale-0" width={500}  height={300} src={image} alt={"old machintosh"}/>
             <div className="absolute flex flex-col justify-between bg-black bg-opacity-5 w-full h-full top-0 left-0 bg-blend-multiply p-8">
                 <p className="text-2xl font-bold">{title}</p>
                 <p className="text-xl font-alata group-hover:underline">{paragraph}</p>

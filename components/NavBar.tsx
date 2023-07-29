@@ -3,10 +3,11 @@
 import * as React from 'react';
 import Image from "next/image";
 import {Btn} from "@components/ui/btn";
-import Link from "next/link";
 import {useEffect, useState} from "react";
 import {useTranslations} from "use-intl";
 import DropDown from "@components/ui/DropDown";
+import Link from 'next-intl/link';
+
 
 type props = {
     background?: boolean
@@ -38,9 +39,9 @@ export const NavBar = ({background}: props) => {
             className={`w-full flex items-center md:px-0 h-20 z-50 transition duration-500 delay-500 ${background || open ? "bg-primary-dark" : null} ${open ? "sticky top-0" : null}`}>
             <div className="container mx-auto flex grow">
                 <div className="text-amber-400">
-                   <Link href={"/"}>
-                       <Image src="/image/logo.svg" alt="Multi Agency logo" width={122} height={200}/>
-                   </Link>
+                    <Link href={"/"}>
+                        <Image src="/image/logo.svg" alt="Multi Agency logo" width={122} height={200}/>
+                    </Link>
                 </div>
                 <div className="flex items-center ms-auto">
                     <div className={`md:hidden w-[32px] mr-4 cursor-pointer`} onClick={() => setOpen(!open)}>
@@ -50,15 +51,15 @@ export const NavBar = ({background}: props) => {
                             className={`bg-primary-light h-[2px] w-full my-2 transition duration-500 ${open ? "-translate-x-[5px]" : null}`}></div>
                     </div>
                     <ul className="hidden text-primary-light text-sm gap-12 pe-12 items-center md:flex">
-                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
-                            href={"/"}>{text("menu1")}</Link></li>
-                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in"><Link
-                            href={"/about"}>{text("menu2")}</Link></li>
+                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">
+                            <Link href={"/"} locale={lang}>{text("menu1")}</Link>
+                        </li>
+                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">
+                            <Link href={"/about"} locale={lang}>{text("menu2")} </Link>
+                        </li>
                         <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">{text("menu3")}</li>
                         <li>
-                            <Link href={"/contact"}>
-                                <Btn outline value={text("menu4")}/>
-                            </Link>
+                            <Link href={"/contact"} locale={lang}> <Btn outline value={text("menu4")}/> </Link>
                         </li>
                         <li>
                             <DropDown trigger={lang}/>

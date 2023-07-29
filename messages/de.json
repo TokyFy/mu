@@ -8,58 +8,111 @@
   "Heading": {
     "slogan": "Eine Vielzahl von Fähigkeiten in einer einzigen Agentur, geschaffen für Erfolg.",
     "engagement": "Wir entwickeln gewinnbringende Ideen, um die markantesten Kampagnen der Welt zu entfachen.",
-    "value": "Von fesselnden Designs bis zu überzeugenden Kampagnen werden wir Ihre Vision auf fesselnde Weise zum Leben erwecken und Ihr Publikum begeistern und Ergebnisse erzielen. Erleben Sie die transformative Kraft unserer Kreativität und entdecken Sie neue Möglichkeiten für den Erfolg Ihrer Marke."
+    "value": "Von fesselnden Designs bis hin zu überzeugenden Kampagnen setzen wir Ihre Vision auf eine Art und Weise um, die das Publikum fesselt und Ergebnisse erzielt. Erleben Sie die transformative Kraft unserer Kreativität und entdecken Sie neue Möglichkeiten für den Erfolg Ihrer Marke."
   },
   "whoWeAre": {
     "title": "WER WIR SIND?",
-    "slogan1": "MU ist die Marketing-Agentur, die sich um jeden Aspekt Ihrer Marke kümmert.",
+    "slogan1": "MU ist die Marketing-Agentur, der jeder Aspekt Ihrer Marke am Herzen liegt.",
     "slogan2": "Alles ist wichtig, die großen und die kleinen Dinge."
   },
   "service": {
     "title": "Was wir tun",
     "service1": {
       "name": "Digitale Strategie",
-      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      "detail": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
     },
     "service2": {
       "name": "Social Media Management",
-      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      "detail": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
     },
     "service3": {
       "name": "Webentwicklung",
-      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      "detail": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
     },
     "service4": {
-      "name": "Digitale Strategie",
-      "detail": "Wir haben uns darauf spezialisiert, Unternehmen dabei zu helfen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      "name": "Foto und Video",
+      "detail": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
     }
   },
   "projects": {
-    "title": "Unsere <br></br> Projekte",
+    "title": "Unsere Projekte",
     "btn": "Alle Projekte"
   },
   "blogs": {
-    "title": "Neueste <br></br> Blogs",
-    "btn": "Weiterlesen",
+    "title": "Aktuelle Blogs",
+    "btn": "Mehr lesen",
     "blog1": {
       "title": "Marketing ist einer der wichtigsten Aspekte",
       "preview": "Eine positive Imagebildung für Ihre Marke und der Aufbau von Kundenbeziehungen"
     },
     "blog2": {
       "title": "Suchmaschinenoptimierung",
-      "preview": "Prozess zur Erhöhung der Sichtbarkeit einer Website"
+      "preview": "Der Prozess der Verbesserung der Sichtbarkeit einer Website"
     },
     "blog3": {
       "title": "Marketing ist der Prozess der Förderung und des Verkaufs von Produkten",
-      "preview": "Es ist ein wesentlicher Bestandteil jedes erfolgreichen Unternehmens und trägt zur Schaffung von Markenbewusstsein bei..."
+      "preview": "Es ist ein wesentlicher Bestandteil jedes erfolgreichen Unternehmens und trägt dazu bei, das Markenbewusstsein zu schaffen..."
     }
   },
   "footer": {
-    "cta": "Haben Sie eine Idee? <br></br> Lassen Sie uns diese umsetzen und ausweiten!",
+    "cta": "Eine Idee? <br></br> Lass uns sie umsetzen und vergrößern!",
     "btn": "Kontakt aufnehmen",
-    "mail_cta": "Kontaktieren Sie uns",
-    "phone-cta": "Diskutieren",
-    "policy": "Datenschutzbestimmungen",
-    "legal": "Impressum"
+    "mail_cta": "Lasst uns bauen",
+    "phone-cta": "Lasst uns diskutieren",
+    "policy": "Datenschutz-Bestimmungen",
+    "legal": "Rechtliche Informationen"
+  },
+  "servicePage": {
+    "intro": "WIR SIND MU AGENCY",
+    "presentation_one": "Bei MU Agency ist stetiges Wachstum immer erreichbar dank unserer außergewöhnlichen Atmosphäre. Unser Team wächst kontinuierlich, nicht nur in Bezug auf Größe und kreatives Talent, sondern auch weltweit. Wir verfügen über umfangreiches Wissen im Marketingbereich. Wir bieten weltweit preisgekrönte, Multi-Channel-Marketingstrategien, die digitale und traditionelle Medienkanäle abdecken und zu herausragenden Erfolgen geführt haben. Unser Leistungsspektrum geht über das Übliche hinaus; wir untersuchen, planen, entwickeln Strategien und garantieren Erfolg.",
+    "presentation_two": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind. Unser Fachwissen geht über das Übliche hinaus, da wir untersuchen, planen, strategisieren und Erfolg herbeiführen.",
+    "teams_into": "Ein Team von 4 Fachleuten mit Sitz in Madagaskar",
+    "team_presentation": "Wir sind ein hochkollaboratives Team, das gerne zusammenarbeitet und sich darauf freut, sein Wissen und seine Erfahrungen zu teilen. Wenn unser Team das nächste Projekt startet, wissen wir, dass wir es mit einer Vielzahl von Fähigkeiten bewältigen können und aufeinander zählen können.",
+    "teams": {
+      "member_1": {
+        "name": "Antsa",
+        "fonction": "Leitende Designerin"
+      },
+      "member_2": {
+        "name": "Toky",
+        "fonction": "Leitender Entwickler"
+      },
+      "member_3": {
+        "name": "Safidy",
+        "fonction": "Kommunikationsmanager"
+      },
+      "member_4": {
+        "name": "Tsilefy",
+        "fonction": "Marketing Manager"
+      }
+    },
+    "advantage": {
+      "advantage1": {
+        "areas": "Erfahrene<br></br>Professionals",
+        "explanation": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      },
+      "advantage2": {
+        "areas": "Umfassender<br></br>Service",
+        "explanation": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      },
+      "advantage3": {
+        "areas": "Maßgeschneiderte<br></br>Strategien",
+        "explanation": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      },
+      "advantage4": {
+        "areas": "Datengetriebener<br></br>Ansatz",
+        "explanation": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      },
+      "advantage5": {
+        "areas": "Nachgewiesene<br></br>Ergebnisse",
+        "explanation": "Wir sind darauf spezialisiert, Unternehmen dabei zu unterstützen, ihr höchstes Potenzial zu erreichen, indem wir kreative und effektive Marketingstrategien entwickeln, die auf ihre individuellen Bedürfnisse zugeschnitten sind."
+      }
+    }
+  },
+  "contactPage": {
+    "back_home": "Zurück zur Startseite",
+    "location": "Standort",
+    "support": "Kundensupport-Abteilung",
+    "social": "Soziale Medien"
   }
 }
