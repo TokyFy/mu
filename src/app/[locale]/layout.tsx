@@ -1,5 +1,3 @@
-
-
 import './globals.css'
 import type {Metadata} from 'next'
 import {NextIntlClientProvider} from 'next-intl';
@@ -7,8 +5,8 @@ import {notFound} from 'next/navigation';
 import React from "react";
 
 
-export function generateStaticParams() {
-    return [{locale: 'en'}, {locale: 'fr'} , {locale: 'de'}];
+export  function generateStaticParams() {
+    return [{locale: 'en'}, {locale: 'fr'} , {locale: 'de'} , {locale: 'ko'}];
 }
 
 export const metadata: Metadata = {

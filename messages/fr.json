@@ -55,6 +55,13 @@
       "title": "Le marketing est l'un des aspects les plus importants",
       "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
     }
+  } ,
+  "footer" : {
+    "cta" : "Vous avez une idée ? <br></br> Développons-le !",
+    "btn" : "Contacter nous",
+    "mail_cta" : "Construisons ensemble",
+    "phone-cta" : "Let's discus",
+    "policy" : "politique de confidentialité",
+    "legal" : "Information Legale"
   }
-
 }

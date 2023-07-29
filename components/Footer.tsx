@@ -1,34 +1,39 @@
 import {Btn} from "@components/ui/btn";
-import Image from "next/image";
 import * as React from "react";
+import {useTranslations} from "use-intl";
 
 export const Footer = () => {
+
+    const text = useTranslations('footer');
+    const navText = useTranslations('NavBar');
+
     return (
         <footer className="bg-primary-dark text-primary-light py-[96px] divide-y divide-neutral-700 px-2">
             <div className="container mx-auto flex lg:items-end justify-between py-[64px] gap-6 flex-col lg:flex-row">
                 <p className="text-6xl font-bold">
-                    Have An Idea?<br/>
-                    Let’s Make And Scale It !
+                    {text.rich("cta",  {
+                        br: (_chunks) => <br></br>,
+                    })}
                 </p>
                 <div className="self-end">
-                    <Btn outline value="Get in touch"/>
+                    <Btn outline value={text("btn")}/>
                 </div>
             </div>
             <div className="container mx-auto font-alata flex  flex-col gap-12 md:flex-row justify-between py-[64px] text-base">
                 <ul className="flex flex-col gap-2">
-                    <li>Home</li>
-                    <li>About us</li>
-                    <li>Services</li>
-                    <li>Blogs</li>
+                    <li>{navText("menu1")}</li>
+                    <li>{navText("menu2")}</li>
+                    <li>{navText("menu3")}</li>
+                    <li>{navText("menu4")}</li>
                 </ul>
 
                 <ul className="flex flex-col gap-4">
                     <li>
-                        <p>Lets build</p>
+                        <p>{text("mail_cta")}</p>
                         <a href="#" className="opacity-50">hello@multy_united.com</a>
                     </li>
                     <li>
-                        <p>Lets discus</p>
+                        <p>{text("phone-cta")}</p>
                         <a href="#" className="opacity-50">+261 20 202 20</a>
                     </li>
                 </ul>

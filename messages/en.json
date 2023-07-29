@@ -54,5 +54,14 @@
       "title" : "Marketing is the process of promoting and selling products",
       "preview" : "It's an essential part of any successful business, helping to create brand awareness..."
     }
+  },
+
+  "footer" : {
+    "cta" : "Have An Idea? <br></br> Let’s Make And Scale It !",
+    "btn" : "Get in touch",
+    "mail_cta" : "Let's build",
+    "phone-cta" : "Discutons",
+    "policy" : "Privacy policy",
+    "legal" : "Legal Information"
   }
 }
