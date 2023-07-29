@@ -27,7 +27,7 @@ const Dropdown = ({trigger} : props) => {
                     </DropdownMenu.Item>
 
                     <DropdownMenu.Item  className="cursor-pointer my-2 hover:underline">
-                        <Link href={"/de"}>deutsch</Link>
+                        <Link href={"/de"}>Deutsch</Link>
                     </DropdownMenu.Item>
 
                     <DropdownMenu.Item  className="cursor-pointer my-2 hover:underline">
