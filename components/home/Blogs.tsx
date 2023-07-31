@@ -20,13 +20,19 @@ export const Blogs = () => {
             <div className="grid md:grid-cols-3 gap-x-8">
                 <Blog cover={"/image/blog1.webp"}
                       title={text("blog1.title")}
-                      resume={text("blog1.preview")}/>
+                      resume={text("blog1.preview")}
+                        link={"/blogs/Marketing-is-one-of-the-most-important-aspects"}/>
                 <Blog cover={"/image/blog2.webp"}
                       title={text("blog2.title")}
-                      resume={text("blog2.preview")}/>
+                      resume={text("blog2.preview")}
+                      link={"/blogs/The-Art-of-Search-Engine-Optimization"}/>
+
                 <Blog cover={"/image/blog3.webp"}
                       title={text("blog3.title")}
-                      resume={text("blog3.preview")}/>
+                      resume={text("blog3.preview")}
+                      link={"#"}
+                />
+
             </div>
         </section>
     );
