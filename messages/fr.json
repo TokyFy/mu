@@ -19,19 +19,19 @@
     "title": "Nous faisons",
     "service1": {
       "name": "Stratégie numérique",
-      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+      "detail": "Nous aidons les entreprises en leur fournissant des feuilles de route numériques sur mesure. Notre équipe d'experts effectue des recherches approfondies et propose des solutions basées sur les données, comprenant l'optimisation de sites web, le marketing de contenu, le référencement, le PPC, et bien plus encore."
     },
     "service2": {
       "name": "Gestion des médias sociaux",
-      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+      "detail": "Nous comprenons le rôle essentiel que jouent les médias sociaux dans la construction d'une présence en ligne puissante et dans l'établissement de connexions significatives avec votre public."
     },
     "service3": {
-      "name": "Développement Web",
-      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+      "name": "Développement web",
+      "detail": "De la conception initiale au lancement final, nous veillons à ce que chaque aspect de votre site web incarne l'innovation, la convivialité et un design de pointe."
     },
     "service4": {
-      "name": "Photo and Video",
-      "detail": "Nous nous spécialisons dans l'aide aux entreprises pour atteindre leur plein potentiel en développant des stratégies marketing créatives et efficaces adaptées à leurs besoins individuels."
+      "name": "Photo et vidéo",
+      "detail": "Que vous recherchiez des photographies de produits éblouissantes, des vidéos d'entreprise captivantes ou un contenu engageant pour les médias sociaux, nous avons l'expertise et la créativité pour donner vie à votre vision."
     }
   },
 

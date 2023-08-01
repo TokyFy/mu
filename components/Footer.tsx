@@ -30,7 +30,7 @@ export const Footer = () => {
                 <ul className="flex flex-col gap-4">
                     <li>
                         <p>{text("mail_cta")}</p>
-                        <a href="#" className="opacity-50">hello@multy_united.com</a>
+                        <a href="#" className="opacity-50">hello@multi-united.com</a>
                     </li>
                     <li>
                         <p>{text("phone-cta")}</p>
@@ -48,10 +48,10 @@ export const Footer = () => {
             <div className="container mx-auto font-alata text-sm  pt-[48px] flex flex-col gap-6 md:flex-row justify-between">
                 <ul className="flex gap-3 ">
                     <li>
-                        Privacy Policy
+                        {text("policy")}
                     </li>
                     <li>
-                        Legal Information
+                        {text("legal")}
                     </li>
                 </ul>
                 <p className="opacity-50">© MU. All rights reserved 2023</p>
