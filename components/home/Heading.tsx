@@ -27,7 +27,7 @@ export const Heading = (props: Props) => {
                 </div>
             </section>
             <div className="overflow-hidden absolute w-screen h-screen top-0 left-0">
-                <video poster={"/image/poster.webp"} autoPlay loop muted className="h-screen w-full object-cover brightness-[0.1]">
+                <video poster={"/image/poster.webp"} autoPlay loop muted className="h-screen w-full object-cover brightness-[0.4]">
                     <source src="image/homevideo.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

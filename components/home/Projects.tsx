@@ -59,18 +59,18 @@ export const Projects = () => {
                 >
                     <SwiperSlide>
                         <Project image={"/image/project2.jpg"}
-                                 title={"Haron'tsika"}
-                                 paragraph={"Haron'tsika - Marketing strategies"}/>
+                                 title={text("project1.title")}
+                                 paragraph={text("project1.role")}/>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Project image={"/image/project1.jpg"}
-                                 title={"Sync"}
-                                 paragraph={"Sync - Marketing strategies"} elevated/>
+                                 title={text("project2.title")}
+                                 paragraph={text("project2.role")} elevated/>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Project image={"/image/project3.jpg"}
-                                 title={"Hayra"}
-                                 paragraph={"Hayra - Desing and Brand"}/>
+                                 title={text("project3.title")}
+                                 paragraph={text("project2.role")}/>
                     </SwiperSlide>
                 </Swiper>
             </div>

@@ -36,7 +36,25 @@
   },
   "projects": {
     "title": "Unsere Projekte",
-    "btn": "Alle Projekte"
+    "btn": "Alle Projekte",
+    "project1" : {
+      "title" : "Haron'tsika",
+      "role" : "Haron'tsika - Marketingstrategien"
+    },
+    "project2" : {
+      "title" : "Sync",
+      "role" : "Sync - Webentwicklung"
+    },
+    "project3" : {
+      "title" : "Hayra",
+      "role" : "Hayra - Design und Marke"
+    }
+
+
+
+
+
+
   },
   "blogs": {
     "title": "Aktuelle Blogs",
