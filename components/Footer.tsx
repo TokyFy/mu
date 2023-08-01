@@ -34,7 +34,8 @@ export const Footer = () => {
                     </li>
                     <li>
                         <p>{text("phone-cta")}</p>
-                        <a href="#" className="opacity-50">+261 20 202 20</a>
+                        <a href="#" className="opacity-50">+261 34 45 883 12
+                        </a>
                     </li>
                 </ul>
 
