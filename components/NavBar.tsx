@@ -36,7 +36,7 @@ export const NavBar = ({background}: props) => {
 
     return (
         <nav
-            className={`w-full flex items-center md:px-0 h-20 z-50 transition duration-500 delay-500 ${background || open ? "bg-primary-dark" : null} ${open ? "sticky top-0" : null}`}>
+            className={`w-full flex items-center md:px-0 h-20 z-50 transition duration-500 delay-500 fixed top-0 left-0 backdrop-blur-sm ${background ? "bg-black bg-opacity-80" : null} ${open ? "sticky top-0  bg-opacity-100" : null}`}>
             <div className="container mx-auto flex grow">
                 <div className="text-amber-400">
                     <Link href={"/"}>
@@ -57,7 +57,9 @@ export const NavBar = ({background}: props) => {
                         <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">
                             <Link href={"/about"} locale={lang}>{text("menu2")} </Link>
                         </li>
-                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">{text("menu3")}</li>
+                        <li className="cursor-pointer opacity-50 hover:opacity-100 transition ease-in">
+                            <a href="/#blogs">{text("menu3")}</a>
+                        </li>
                         <li>
                             <Link href={"/contact"} locale={lang}> <Btn outline value={text("menu4")}/> </Link>
                         </li>

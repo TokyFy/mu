@@ -28,7 +28,7 @@ export default async function RootLayout({children, params: {locale}}: {
 
     return (
         <html lang={locale}>
-        <body className="no-transition font-cabin subpixel-antialiased overflow-x-hidden">
+        <body className="no-transition font-cabin subpixel-antialiased overflow-x-hidden scroll-smooth">
         <NextIntlClientProvider locale={locale} messages={messages}>
             {children}
         </NextIntlClientProvider>

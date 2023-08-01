@@ -37,7 +37,19 @@
 
   "projects" : {
     "title" : "Nos<br></br>Projects",
-    "btn" : "Voir tous nos Projets"
+    "btn" : "Voir tous nos Projets",
+    "project1" : {
+      "title" : "Haron'tsika",
+      "role" : "Haron'tsika - Stratégies marketing"
+    },
+    "project2" : {
+      "title" : "Sync",
+      "role" : "Sync - Développement web"
+    },
+    "project3" : {
+      "title" : "Hayra",
+      "role" : "Hayra - Conception et marque"
+    }
   },
 
   "blogs" : {
@@ -48,12 +60,12 @@
       "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
     },
     "blog2": {
-      "title": "Le marketing est l'un des aspects les plus importants",
-      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+      "title": "Optimisation pour les moteurs de recherche",
+      "preview": "Processus d'augmentation de la visibilité d'un site web"
     },
     "blog3": {
-      "title": "Le marketing est l'un des aspects les plus importants",
-      "preview": "Créer une image positive pour votre marque et établir des relations avec les clients"
+      "title": "Le marketing est le processus de promotion et de vente de produits",
+      "preview": "C'est une partie essentielle de toute entreprise réussie, aidant à créer la notoriété de la marque..."
     }
   } ,
 

@@ -14,7 +14,7 @@ export default function Home() {
 
     return (
        <LenisWrapper>
-           <NavBar/>
+           <NavBar background/>
            <Heading/>
            <WhoWeAre/>
            <Service/>

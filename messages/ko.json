@@ -36,7 +36,19 @@
   },
   "projects": {
     "title": "우리의 <br></br> 프로젝트",
-    "btn": "모든 프로젝트"
+    "btn": "모든 프로젝트",
+    "project1" : {
+      "title" : "하롱시카",
+      "role" : "하롱시카 - 마케팅 전략"
+    },
+    "project2" : {
+      "title" : "싱크",
+      "role" : "싱크 - 웹 개발"
+    },
+    "project3" : {
+      "title" : "하이라",
+      "role" : "하이라 - 디자인 및 브랜드"
+    }
   },
   "blogs": {
     "title": "최신 <br></br> 블로그",

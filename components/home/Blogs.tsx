@@ -7,7 +7,7 @@ export const Blogs = () => {
     const text = useTranslations('blogs');
 
     return (
-        <section className="container mx-auto px-2 md:mx-auto pb-[96px]">
+        <section id="blogs" className="container mx-auto px-2 md:mx-auto pb-[96px]">
             <h2 className="font-alata opacity-50 mb-[48px]">BLOGS</h2>
             <div className="flex justify-between grow items-center mb-[64px]">
                 <h1 className="font-cabin text-5xl font-bold justify-between">
