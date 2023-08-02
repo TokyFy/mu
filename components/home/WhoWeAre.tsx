@@ -5,7 +5,7 @@ export const WhoWeAre = () => {
     const text = useTranslations('whoWeAre');
 
     return (
-        <section className="container px-2 mx-auto mb-[96px]">
+        <section className="container px-2 mx-auto my-[96px]">
             <div className="xl:w-2/3">
                 <h2 className="font-alata opacity-50 mb-[48px]">{text("title")}</h2>
                 <p className="font-cabin text-5xl md:text-6xl font-bold">
